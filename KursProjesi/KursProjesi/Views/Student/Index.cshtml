@@ -1,0 +1,33 @@
+﻿@model Student
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Kurs Projesi</title>
+    </head>
+    <body>
+        <form asp-action="Index" asp-controller="Student">
+        <div>
+            <input type="hidden" asp-for="Id" />
+        </div>
+
+        <div>
+           Ad: <input type="text" asp-for="Firstname" />
+        </div>
+        <div>
+            Soyad: <input type="text" asp-for="Lastname" />
+        </div>
+        <div>
+            Yaş: <input type="number" asp-for="Age" min="0" max="100" />
+        </div>
+        <div>
+            Kurslar:<br />
+            Matematik <input type="radio" name="SelectedCourse" value="Matematik" /><br />
+            Yapay Zeka <input type="radio" name="SelectedCourse" value="Yapay Zeka" /><br />
+            Makine Öğrenmesi <input type="radio" name="SelectedCourse" value="Makine Öğrenmesi" /><br />
+            İngilizce <input type="radio" name="SelectedCourse" value="İngilizce" /><br />
+        </div>
+        <button type="submit"> Kayıt ol</button>
+        </form>
+    </body>
+</html>

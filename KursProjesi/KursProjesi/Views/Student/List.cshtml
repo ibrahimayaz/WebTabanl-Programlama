@@ -1,0 +1,19 @@
+﻿@model List<Student>
+
+    <a asp-action="Index" asp-controller="Student">Kayıt sayfasına dön</a>
+
+    <table>
+        <tr>
+            <th>Öğreninin Tam Adı</th>
+            <th>Yaşı</th>
+            <th>Seçilen Kursu</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.Fullname</td>
+            <td>@item.Age</td>
+            <td>@item.SelectedCourse</td>
+        </tr>
+    }
+    </table>
