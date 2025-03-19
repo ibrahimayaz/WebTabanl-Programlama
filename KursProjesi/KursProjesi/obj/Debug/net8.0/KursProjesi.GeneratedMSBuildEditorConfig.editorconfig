@@ -9,27 +9,27 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KursProjesi
 build_property.RootNamespace = KursProjesi
-build_property.ProjectDir = C:\Users\win10\Desktop\Web\KursProjesi\KursProjesi\
+build_property.ProjectDir = C:\Users\win10\Desktop\WebTabanl-Programlama\KursProjesi\KursProjesi\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\win10\Desktop\Web\KursProjesi\KursProjesi
+build_property.MSBuildProjectDirectory = C:\Users\win10\Desktop\WebTabanl-Programlama\KursProjesi\KursProjesi
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/win10/Desktop/Web/KursProjesi/KursProjesi/Views/Student/Index.cshtml]
+[C:/Users/win10/Desktop/WebTabanl-Programlama/KursProjesi/KursProjesi/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/win10/Desktop/Web/KursProjesi/KursProjesi/Views/Student/List.cshtml]
+[C:/Users/win10/Desktop/WebTabanl-Programlama/KursProjesi/KursProjesi/Views/Student/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/win10/Desktop/Web/KursProjesi/KursProjesi/Views/_ViewImports.cshtml]
+[C:/Users/win10/Desktop/WebTabanl-Programlama/KursProjesi/KursProjesi/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/win10/Desktop/Web/KursProjesi/KursProjesi/Views/_ViewStart.cshtml]
+[C:/Users/win10/Desktop/WebTabanl-Programlama/KursProjesi/KursProjesi/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

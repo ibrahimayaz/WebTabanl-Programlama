@@ -8,14 +8,14 @@
     <body>
         <form asp-action="Index" asp-controller="Student">
         <div>
-            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="Id">
         </div>
 
         <div>
-           Ad: <input type="text" asp-for="Firstname" />
+           Ad: <input asp-for="Firstname" />
         </div>
         <div>
-            Soyad: <input type="text" asp-for="Lastname" />
+            Soyad: <input asp-for="Lastname" />
         </div>
         <div>
             Yaş: <input type="number" asp-for="Age" min="0" max="100" />

@@ -1,0 +1,27 @@
+﻿@model List<Product>
+
+<table>
+    <tr>
+        <th>#</th>
+        <th>Ad</th>
+        <th>Açıklama</th>
+        <th>Fiyat</th>
+    </tr>
+    @foreach (var urun in Model)
+    {
+        <tr>
+            <td>
+                <img src="@urun.ImageUrl" />
+            </td>
+            <td>
+                @urun.Name
+            </td>
+            <td>
+                @urun.Decription
+            </td>
+            <td>
+                @urun.Price
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>BEU E-ticaret</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                <a asp-action="Index" asp-controller="Product">Ürün listesi</a>
+                </li>
+            <li>
+                <a asp-action="Create" asp-controller="Product">Ürün Ekle</a>
+            </li>
+            </ul>
+        </nav>
+        @RenderBody()
+    </body>
+</html>

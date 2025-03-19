@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\win10\\Desktop\\Web\\KursProjesi\\KursProjesi\\KursProjesi.csproj",
+      "projectUniqueName": "C:\\Users\\win10\\Desktop\\WebTabanl-Programlama\\KursProjesi\\KursProjesi\\KursProjesi.csproj",
       "projectName": "KursProjesi",
-      "projectPath": "C:\\Users\\win10\\Desktop\\Web\\KursProjesi\\KursProjesi\\KursProjesi.csproj",
+      "projectPath": "C:\\Users\\win10\\Desktop\\WebTabanl-Programlama\\KursProjesi\\KursProjesi\\KursProjesi.csproj",
       "packagesPath": "C:\\Users\\win10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\win10\\Desktop\\Web\\KursProjesi\\KursProjesi\\obj\\",
+      "outputPath": "C:\\Users\\win10\\Desktop\\WebTabanl-Programlama\\KursProjesi\\KursProjesi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\win10\\AppData\\Roaming\\NuGet\\NuGet.Config",

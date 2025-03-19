@@ -1,0 +1,8 @@
+﻿@model Product
+<form asp-action="Create" asp-controller="Product">
+    Ürün Adı: <input type="text" asp-for="Name" /><br />
+    Açıklama: <input type="text" asp-for="Decription" /><br />
+    Fiyat: <input type="text" asp-for="Price" /><br />
+    Resim Url: <input type="text" asp-for="ImageUrl" /><br />
+    <button type="submit">Ekle</button>
+</form>
