@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "CyVEUXp/z/xpsPSIuLYqmhszqYUMCRwKa7l2y8mHQS0=",
+  "Source": "ECommerce",
+  "BasePath": "_content/ECommerce",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ECommerce\\wwwroot",
+      "Source": "ECommerce",
+      "ContentRoot": "C:\\Users\\win10\\Desktop\\WebTabanl-Programlama\\ECommerce\\ECommerce\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
