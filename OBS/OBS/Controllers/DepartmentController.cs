@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OBS.Data;
+using OBS.Models;
 
 namespace OBS.Controllers
 {
@@ -16,6 +17,27 @@ namespace OBS.Controllers
         {
             var bolumListesi = _context.Department.ToList();
             return View(bolumListesi);
+        }
+
+        
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Department d)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(d);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return BadRequest();
+            }
         }
     }
 }

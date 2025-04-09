@@ -1,0 +1,44 @@
+﻿@model List<Student>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                Öğrenci No
+            </th>
+            <th>
+                Öğrenci Ad Soyad
+            </th>
+            <th>
+                Bölüm Adı
+            </th>
+            <th>
+                Not Ortalaması
+            </th>
+            <th>
+                #
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ogrenci in Model)
+        {
+            <tr>
+                <td>@ogrenci.Id</td>
+                <td>
+                    @ogrenci.Name @ogrenci.Surname
+                </td>
+                <td>
+                    @ogrenci.Department.Name
+                </td>
+                <td>
+                    @ogrenci.Gpa
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@ogrenci.Id">Düzenle</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
