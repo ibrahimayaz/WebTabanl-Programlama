@@ -1,0 +1,15 @@
+﻿@model Student
+
+<form method="post" asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+    Öğrencinin Adı: <input asp-for="Name" /><br />
+    Öğrencinin Soyad: <input asp-for="Surname" /><br />
+    Not Ortalaması <input asp-for="Gpa" /><br />
+    Bölümü: <select asp-for="DepartmentId">
+        @foreach(var bolum in ViewBag.BolumListesi as List<Department>)
+        {
+            <option value="@bolum.Id">@bolum.Name</option>
+        }
+    </select>
+    <button type="submit">Kaydet</button>
+</form>

@@ -9,6 +9,6 @@ namespace OBS.Models
         public string Surname { get; set; }
         public double Gpa {  get; set; }
         public int DepartmentId { get; set; }
-        public Department Department { get; set; }
+        public Department? Department { get; set; }
     }
 }
