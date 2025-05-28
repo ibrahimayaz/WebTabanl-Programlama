@@ -1,0 +1,26 @@
+﻿@model UserVM
+
+
+<form method="post" asp-action="Index">
+
+    <input type="hidden" value="1" asp-for="Id" /><br />
+    <span asp-validation-for="Id"></span><br />
+
+    Ad: <input type="text" asp-for="Name" /><br />
+    <span asp-validation-for="Name"></span><br />
+
+    Soyad: <input type="text" asp-for="Surname" /><br />
+    <span asp-validation-for="Surname"></span><br />
+
+    Yaş: <input type="number" asp-for="Age" /><br />
+    <span asp-validation-for="Age"></span><br />
+
+    E-mail: <input type="email" asp-for="Email" /><br />
+    <span asp-validation-for="Email"></span><br />
+
+    Şifre: <input type="password" asp-for="Password" /><br />
+    Şifre Tekrar: <input type="password" asp-for="ConfirmPassword" /><br />
+    <span asp-validation-for="ConfirmPassword"></span><br />
+
+    <button type="submit">Kayıt ol</button>
+</form>
